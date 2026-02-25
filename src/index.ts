@@ -1,6 +1,7 @@
 function hello(nama: string, umur: number): string {
-    return 'Selamat datang '+nama+' di kelas pwl, betah-betah ya, umur Ali '+umur+'';
+    // Hapus +' di akhir baris
+    return 'Selamat datang ' + nama + ' di kelas pwl, betah-betah ya, umur Ali ' + umur;
 }
-const mahasiswa = "Ali";
-const umur:number = 19;
+const mahasiswa = "Febby";
+const umur: number = 16;
 console.log(hello(mahasiswa, umur));

@@ -1,7 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-function hello(nama) {
-    return 'Selamat datang ' + nama + ' di kelas pwl, betah-betah ya';
+function hello(nama, umur) {
+    // Hapus +' di akhir baris
+    return 'Selamat datang ' + nama + ' di kelas pwl, betah-betah ya, umur Ali ' + umur;
 }
-console.log(hello('John'));
+const mahasiswa = "Febby";
+const umur = 16;
+console.log(hello(mahasiswa, umur));
 //# sourceMappingURL=index.js.map
